@@ -1,7 +1,7 @@
 Problem Description : https://practice.geeksforgeeks.org/problems/permutation-with-spaces3627/1
 
 Time Complexity : O(2^n)
-Space Complexity : O(1)
+Space Complexity : O(n)
   
 class Solution{
 public:
