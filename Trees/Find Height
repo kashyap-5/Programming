@@ -1,4 +1,9 @@
 Problem Description : Given a generic tree, find and return the height of given tree.
+
+Time Complexity : O(N)
+Space Complexity : O(H)
+where N is the number of nodes in the tree and H is the height/depth of the tree.
+
 Sample Input 1:
 10 3 20 30 40 2 40 50 0 0 0 0 
 Sample Output 1:
