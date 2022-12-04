@@ -29,6 +29,7 @@ int main() {
 	          minh.pop();
 	       }
      	}
+        // To push those elements in the vector which are in the heap when heap size is less than k  
      	while(minh.size() > 0){
      	    ans.push_back(minh.top());
      	    minh.pop();
