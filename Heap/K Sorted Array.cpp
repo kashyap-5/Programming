@@ -5,7 +5,7 @@ Given an array of n distinct elements. Check whether the given array is a k sort
     string isKSortedArray(int arr[], int n, int k)
     {
         //code here.
-        priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>>minh;
+        priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>> q;
         for(int i=0;i<n;i++)
         {
             minh.push({arr[i],i});
